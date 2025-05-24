@@ -17,25 +17,25 @@ const Footer: React.FC = () => {
                 <div className="container mx-auto flex flex-col items-center justify-between px-4 md:flex-row md:w-[60vw]">
                     <div className='pb-4'>
                         <Link href={'/'} className='flex justify-center md:justify-start py-1'>
-                         {/* Light mode logo */}
-<Image
-  src="/images/nav-logo.png"
-  alt="Logo"
-  width={120}
-  height={120}
-  className="w-auto h-auto dark:hidden"
-  priority
-/>
+                            {/* Light mode logo */}
+                            <Image
+                                src="/images/nav-logo.png"
+                                alt="Logo"
+                                width={120}
+                                height={120}
+                                className="w-auto h-auto dark:hidden"
+                                priority
+                            />
 
-{/* Dark mode logo */}
-<Image
-  src="/images/nav-logo-white.png"
-  alt="Logo (White)"
-  width={120}
-  height={120}
-  className="w-auto h-auto hidden dark:block"
-  priority
-/>
+                            {/* Dark mode logo */}
+                            <Image
+                                src="/images/nav-logo-white.png"
+                                alt="Logo"
+                                width={120}
+                                height={120}
+                                className="w-auto h-auto hidden dark:block"
+                                priority
+                            />
 
                         </Link>
                         <div className="text-center md:text-left w-[16rem]">
@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
                             </Link>
 
                             {/* Instagram */}
-                            <Link
+                            {/* <Link
                                 href="https://www.instagram.com/yourprofile"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7">
                                     <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm4.5-.8a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z" />
                                 </svg>
-                            </Link>
+                            </Link> */}
 
 
                         </div>

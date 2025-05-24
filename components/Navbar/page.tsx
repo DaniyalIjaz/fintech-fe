@@ -17,8 +17,9 @@ const navItems = [
 ];
 // Fixed Heading 
 const headlines = [
-  "Trusted and results-driven process. Exceptional commitment and service at Fintech Business Advisors.",
+  "Exceptional commitment and service at Fintech Business Advisors.",
   "Innovative fintech solutions designed to drive your business forward.",
+  "Trusted and results-driven process.",
   "Join a community of forward-thinking clients and partners.",
   "Connect with experts who prioritize your success — reach out today.",
 ];
@@ -62,7 +63,7 @@ export default function Navbar() {
 
   return (
     <motion.div
-      className="pb-40"
+      className="pb-32 md:pb-40"
       initial={{ opacity: 0, y: -20 }}   // Start slightly above (negative y)
       animate={{ opacity: 1, y: 0 }}     // Animate down to original position
       transition={{ duration: 0.5 }}
